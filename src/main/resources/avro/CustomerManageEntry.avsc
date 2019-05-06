@@ -1,0 +1,32 @@
+{
+  "namespace": "com.shastha.kafka",
+  "type": "record",
+  "name": "CustomerEntry",
+  "fields": [
+    {
+      "doc": "Customer Identification",
+      "name": "customerId",
+      "type": "string"
+    },
+    {
+      "doc": "Customer Name",
+      "name": "customerName",
+      "type": "string"
+    },
+    {
+      "doc": "Email ID",
+      "name": "emailId",
+      "type": "string"
+    },
+    {
+      "doc": "Phone Number",
+      "name": "phoneNumber",
+      "type": "long"
+    },
+     {
+      "doc": "Alert Status",
+      "name": "alertStatus",
+      "type": "boolean"
+    }
+  ]
+}

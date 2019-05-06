@@ -1,0 +1,12 @@
+{
+  "namespace": "com.shastha.kafka",
+  "type": "record",
+  "name": "CustomerId",
+  "fields": [
+    {
+      "doc": "Customer Identification",
+      "name": "customerId",
+      "type": "string"
+    }
+  ]
+}
